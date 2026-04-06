@@ -5,7 +5,6 @@ phases:
     commands:
       - echo "Build started"
       - ls
-      - cd AWS || echo "AWS folder not found"
 
 artifacts:
   files:
