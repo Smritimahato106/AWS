@@ -3,7 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - cd AWS
+      - echo "Build started"
+      - ls
+      - cd AWS || echo "AWS folder not found"
 
 artifacts:
   files:
